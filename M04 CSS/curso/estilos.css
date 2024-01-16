@@ -1,0 +1,16 @@
+p:hover{
+    color: rgb(217, 25, 169);
+}
+
+.miTexto {
+    font-size: 80px;
+    color: green;
+}
+input:hover{
+    border: 3px solid blue;
+  
+}
+
+input{
+    background-color: bisque;
+}

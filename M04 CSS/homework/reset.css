@@ -1,0 +1,39 @@
+/* Reset CSS */
+
+/* Box sizing border-box por defecto para todos los elementos */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Elimina márgenes y padding predeterminados */
+body, h1, h2, h3, h4, h5, h6, p, margin, figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Asegura una fuente consistente y un tamaño de texto en todos los navegadores */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Normaliza el comportamiento del enlace */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Agrega estilos iniciales comunes */
+body {
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Puedes añadir más estilos según tus necesidades */
